@@ -36,7 +36,7 @@ function Details() {
                 <img src={movie.image}  alt={movie.sinopse}/>
             </div>
             <div className="details" >
-                <h1>{movie.title}</h1>
+                <h2>{movie.title}</h2>
                 <span>Sinopse: {movie.sinopse}</span>
                 <span  className="release-date" >Data de lançamento: {movie.releaseDate}</span>
                 <Link to="/"><button>Go back</button></Link>

@@ -6,7 +6,7 @@ export const Container = styled.div `
 
 padding: 4rem;
 
-h1 {
+h2 {
     margin: 2rem 0;
 }
 
@@ -52,5 +52,21 @@ span {
 .release-date {
     opacity: 0.5;
 }
+
+
+@media only screen and (max-width: 500px) {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+    .details {
+        min-width: 100%;
+        
+    }
+}
+
 
 `
