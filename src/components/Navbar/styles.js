@@ -4,6 +4,7 @@ export const Nav = styled.div `
 
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 background-color: #29323c;
 padding: 2rem;
 
@@ -38,6 +39,21 @@ button {
 
 button:hover {
     opacity: 0.5;
+}
+
+@media only screen and (max-width: 500px) {
+   
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+    
+    input {
+        width: 200px;
+    }
+   
 }
 
 `

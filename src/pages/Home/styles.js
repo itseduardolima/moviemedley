@@ -17,6 +17,11 @@ export const MovieList = styled.ul `
    column-gap: 3rem;
    row-gap: 4rem;
 
+   @media only screen and (max-width: 500px) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  }
+
 `
 
 export const Movie = styled.li `
@@ -44,4 +49,5 @@ export const Movie = styled.li `
     a:hover {
       transform: scale(1.1);
     }
+
 `
