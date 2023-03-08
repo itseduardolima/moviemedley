@@ -6,8 +6,13 @@ export const Container = styled.div `
 
 padding: 4rem;
 
+h1 {
+    margin-top: 20px;
+}
+
 h2 {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
+   
 }
 
 .movie {
@@ -15,10 +20,12 @@ h2 {
 }
 
 img {
-    width: 200px;
-    height: 300px;
-    border-radius: 1rem;
+    width: 550px;
+    height: 350px;
+    border-radius: 5px;
 }
+
+
 
 .details {
     display: flex;
@@ -64,7 +71,11 @@ span {
 
     .details {
         min-width: 100%;
-        
+    }
+
+    img {
+        width: 300px;
+        height: 200px;
     }
 }
 

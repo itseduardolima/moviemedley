@@ -15,13 +15,13 @@ function Details() {
         .then(resp => resp.json() )
         .then(data => {
 
-            const {title, poster_path, overview, release_date} = data
+            const {title, overview, release_date, backdrop_path} = data
 
             const movie = {
-                id, 
+                id,
                 title,
                 sinopse: overview,
-                image: `${image_path}${poster_path}`,
+                image: `${image_path}${backdrop_path}`,
                 releaseDate: release_date
             }
 
@@ -30,18 +30,23 @@ function Details() {
         } )
     }, [id] )
 
+   
+
+
     return (
         <Container>
             <div className="movie">
-                <img src={movie.image}  alt={movie.sinopse}/>
+                
+                <img src={movie.image} alt={movie.title} />
             </div>
             <div className="details" >
-                <h2>{movie.title}</h2>
-                <span>Sinopse: {movie.sinopse}</span>
+                <h1>{movie.title}</h1>
+                <h2>Sinopse</h2>
+                <span>{movie.sinopse}</span>
                 <span  className="release-date" >Data de lançamento: {movie.releaseDate}</span>
                 <Link to="/"><button>Go back</button></Link>
-                
             </div>
+            
         </Container>
     )
 }

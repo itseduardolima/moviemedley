@@ -31,7 +31,8 @@ input:hover {
 button {
     padding: 0.7rem;
     border: none;
-    background: #a6a4a5;
+    background: #5848c2;
+    color: white;
     border-radius: 0 5px 5px 0;
     width: 50px;
     cursor: pointer;
