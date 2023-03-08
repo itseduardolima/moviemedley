@@ -4,7 +4,7 @@ export const Rodape = styled.div `
 
 background-color: #29323c;
 color: white;
-padding: 4rem;
+padding: 1rem;
 text-align: center;
 
 
