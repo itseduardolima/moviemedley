@@ -41,8 +41,12 @@ function Details() {
             </div>
             <div className="details" >
                 <h1>{movie.title}</h1>
-                <h2>Sinopse</h2>
-                <span>{movie.sinopse}</span>
+                <h2 data-bs-toggle="collapse" data-bs-target="#sinopse">
+                    Sinopse
+                </h2>
+                <div id="sinopse">
+                    <span>{movie.sinopse}</span>
+                </div>
                 <span  className="release-date" >Data de lançamento: {movie.releaseDate}</span>
                 <Link to="/"><button>Go back</button></Link>
             </div>

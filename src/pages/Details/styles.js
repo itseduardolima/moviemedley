@@ -8,10 +8,15 @@ padding: 4rem;
 
 h1 {
     margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #5848c2;
 }
 
 h2 {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #5848c2;
    
 }
 
@@ -20,12 +25,11 @@ h2 {
 }
 
 img {
-    width: 550px;
-    height: 350px;
+    width: 60%;
+    height: 400px;
     border-radius: 5px;
+    
 }
-
-
 
 .details {
     display: flex;
@@ -58,6 +62,7 @@ span {
 
 .release-date {
     opacity: 0.5;
+    margin-top: 1rem;
 }
 
 

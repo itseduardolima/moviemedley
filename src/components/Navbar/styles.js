@@ -6,13 +6,15 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 background-color: #29323c;
-padding: 2rem;
+padding: 1.5rem;
 
 
 h2 {
    color: white;
-   
+}
 
+span {
+    color: #5848c2;
 }
 
 input {

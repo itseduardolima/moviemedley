@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <Nav>
             <h2>
-                <Link to="/">MovieMedley</Link>
+                <Link to="/"><span>M</span>ovie<span>M</span>edley</Link>
             </h2>
             <form>
                 <input type="text" placeholder="Busque por um filme"/>

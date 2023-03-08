@@ -4,7 +4,11 @@ import styled from 'styled-components'
  export const Container = styled.div`
  h2 {
     text-align: center;
-    margin: 4rem 0;
+    margin: 4rem;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #5848c2;
+    border-radius: 15px;
+
  }
     
 `
@@ -15,12 +19,14 @@ export const MovieList = styled.ul `
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
    column-gap: 3rem;
-   row-gap: 4rem;
+   row-gap: 3rem;
 
    @media only screen and (max-width: 500px) {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+
+
 
 `
 
@@ -32,8 +38,8 @@ export const Movie = styled.li `
 
    img {
       width: 180px;
-      border-radius: 1rem;
-      margin-bottom: 2rem;
+      border-radius: 5px;
+      
     }
    
     span {
@@ -48,6 +54,12 @@ export const Movie = styled.li `
    
     a:hover {
       transform: scale(1.1);
+    }
+
+    @media only screen and (max-width: 500px) {
+      img {
+        width: 300px;
+      }
     }
 
 `
