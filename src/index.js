@@ -7,6 +7,10 @@ import './index.css';
 import Details from './pages/Details';
 import App from './App';
 import Home from './pages/Home';
+import Releases from './pages/Films/Releases';
+import InTheaters from './pages/Films/InTheaters';
+import WellRated from './pages/Films/WellRated';
+
 
 const router = createBrowserRouter([
   {
@@ -20,7 +24,20 @@ const router = createBrowserRouter([
       {
         path:"/details/:id",
         element: <Details/>,
+      },
+      {
+        path:"/releases",
+        element: <Releases/>,
+      },
+      {
+        path:"/inTheaters",
+        element: <InTheaters/>,
+      },
+      {
+        path:"/wellRated",
+        element: <WellRated/>,
       }
+      
       
     ]
   },

@@ -6,8 +6,8 @@
 }
 
 body {
- background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  color: white
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  color: white;
   
 }
 
@@ -18,5 +18,5 @@ a {
 }
 
 a:hover {
- color: #1d405e;
+ color: #5848c2;
 }

@@ -44,17 +44,28 @@ button:hover {
     opacity: 0.5;
 }
 
+@media only screen and (min-width: 560px) {
+    .burguer {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 500px) {
    
     display: flex;
     justify-content: center;
+    padding: 10px;
 
     h2 {
         margin-bottom: 10px;
     }
     
-    input {
-        width: 200px;
+    form {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
     }
    
 }

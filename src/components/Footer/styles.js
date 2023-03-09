@@ -7,7 +7,6 @@ color: white;
 padding: 1rem;
 text-align: center;
 
-
 `
 
 export const List = styled.ul `
