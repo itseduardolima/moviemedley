@@ -8,7 +8,7 @@ function Navbar() {
         <Nav>
             <div className="navbar" >
                 <div className="burguer" >
-                    <Sidebar />
+                    <Sidebar/>
                 </div>
                 <h2>
                     <Link to="/"><span>M</span>ovie<span>M</span>edley</Link>
